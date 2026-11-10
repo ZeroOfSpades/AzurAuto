@@ -1,0 +1,10 @@
+@use "../../styles";
+
+header {
+  height: 100px;
+  background-color: styles.$azure;
+}
+
+button {
+  color: styles.$bright;
+}

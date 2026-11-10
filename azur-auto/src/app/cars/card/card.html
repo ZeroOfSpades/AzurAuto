@@ -1,0 +1,7 @@
+<div class="car-card">
+  <img ngSrc="{{car.img}}" alt="{{car.name}}" class="car-img" fill>
+  <h2 class="car-name">{{car.name}}</h2>
+  <p class="car-date">
+    {{car.year}}-{{car.month < 10 ? "0"+car.month : car.month}}-{{car.day < 10 ? "0"+car.day : car.day}}
+  </p>
+</div>

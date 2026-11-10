@@ -1,0 +1,11 @@
+@use "../../styles";
+
+main {
+  height: 1500px;
+}
+
+.slider-container {
+  position: relative;
+  left: 100px;
+  height: 500px;
+}

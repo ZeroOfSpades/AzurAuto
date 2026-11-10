@@ -1,0 +1,8 @@
+<main>
+  <section>
+    <input type="text" id="cars-search"/>
+  </section>
+  @for (car of carData.cars; track $index) {
+    <app-card [car]="JSON.parse(car)"></app-card>
+  }
+</main>
