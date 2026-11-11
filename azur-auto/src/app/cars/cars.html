@@ -3,6 +3,6 @@
     <input type="text" id="cars-search"/>
   </section>
   @for (car of carData.cars; track $index) {
-    <app-card [car]="JSON.parse(car)"></app-card>
+    <app-card [car]="JSON.parse(car)" (click)="goToPage($index)"></app-card>
   }
 </main>

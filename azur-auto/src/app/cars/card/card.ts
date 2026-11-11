@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, Output} from '@angular/core';
 import { ICar } from '../../interfaces/iCar'
 import {NgOptimizedImage} from '@angular/common';
 
@@ -12,7 +12,5 @@ import {NgOptimizedImage} from '@angular/common';
 })
 export class Card {
   @Input({required: true}) car!: ICar;
-  Card(): void {
-
-  }
+  constructor() {}
 }
